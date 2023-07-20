@@ -5,41 +5,52 @@
 } 
 body{
     text-align: center;
-    size: 100vw 100vh !important;
+    size: 100vw 100vh !important;  
 }
-
+#alert-link{
+    background-color: white;
+    border-color:rgb(10, 36, 236);
+    border-style: solid;
+    border-radius: 10ch;
+    text-align: center;
+    font-size: 30px;
+}
+#footer{ 
+   
+    color: black;   
+    font-size: 100%;
+    bottom: 0;
+    position: absolute;
+    margin-left: 45vw;
+}
 #galery1{
     
-    height: 84.5vh !important;
+    height: 100vh !important;
+    width: 100vw;
     background: url(fundoDogs.jpg) center center no-repeat;
     background-size: cover;
 }
 
-#divImgDog{
-    text-align: center !important;
-    max-height: 350px;
-}
 
 input, label{
+  
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #botaoClique{
     text-align: center;
-    font-size: 31px;
+    font-size: 23px;
 } 
 
 h1{
-       font-size: 50px; 
+    font-size: 40px; 
 }
-#footer{
-    padding-top: 2%;
-    padding-bottom: 3%;
-    color:aliceblue;
-    background-color: black;
-    font-size: 300%;
-    margin-top: 0;
-    text-align: center;
-    border: yellowgreen;
+
+.divImgDog{
+ 
+    height: 40vh;
+    width: 100vw;
+    
 }
+    
